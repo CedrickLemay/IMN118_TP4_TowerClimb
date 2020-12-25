@@ -506,11 +506,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Camera","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"deathZone","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Camera","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"deathZone","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"spawn","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"platform","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 0}
+    - {fileID: 207575723}
     - {fileID: 621325527}
     - {fileID: 1962913376}
+    - {fileID: 589925124}
+    - {fileID: 1111293980431545781, guid: c2a3b1b1c7ec6b049806f1598facc2b4, type: 3}
 --- !u!4 &208248738
 Transform:
   m_ObjectHideFlags: 0
@@ -1010,7 +1012,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14416
+  m_Name: pb_Mesh32548
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1330,7 +1332,7 @@ MonoBehaviour:
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
-  m_SelectedVertices: 000000000900000001000000040000000500000008000000
+  m_SelectedVertices: 
 --- !u!23 &383430337
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1430,7 +1432,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1204
+  m_Name: pb_Mesh32396
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4309,7 +4311,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1670007620}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.267641, y: 22.383354, z: -25.563501}
+  m_LocalPosition: {x: 8.267641, y: 20, z: -25.563501}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 383430339}
@@ -4479,7 +4481,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14228
+  m_Name: pb_Mesh32338
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4969,7 +4971,6 @@ GameObject:
   - component: {fileID: 2013336961}
   - component: {fileID: 2013336960}
   - component: {fileID: 2013336959}
-  - component: {fileID: 2013336958}
   m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
@@ -4991,22 +4992,6 @@ Transform:
   m_Father: {fileID: 1670007621}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2013336958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2013336956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: e9fdc368c0873ed47b630ffeaccd2879, type: 2}
 --- !u!114 &2013336959
 MonoBehaviour:
   m_ObjectHideFlags: 0
